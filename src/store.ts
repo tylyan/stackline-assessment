@@ -28,4 +28,3 @@ export const store = configureStore({
 
 export type AppStore = typeof store;
 export type RootState = ReturnType<AppStore['getState']>;
-export const selectProduct = (state: any) => state.products;
